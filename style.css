@@ -220,3 +220,13 @@ body {
     transform: rotate(60deg) scaleX(-1);
   }
 }
+/*Second penguin*/
+.penguin-2 {
+  border: 1px solid;
+  width: 150px;
+  height: 200px;
+  position: absolute;
+  right: 10%;
+  top: 40%;
+  z-index: 3;
+}
