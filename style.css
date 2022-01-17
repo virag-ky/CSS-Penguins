@@ -21,3 +21,15 @@ body {
   top: -50px;
   right: -50px;
 }
+.mountain-1 {
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(
+    40deg,
+    rgb(0, 100, 160) 0%,
+    rgb(200, 220, 220) 90%
+  );
+  transform: skew(0deg, 44deg);
+  position: absolute;
+  top: 35%;
+}
