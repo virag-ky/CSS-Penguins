@@ -123,3 +123,18 @@ body {
   left: 45%;
   z-index: 1;
 }
+.cheeks-1 {
+  width: 20px;
+  height: 10px;
+  background-color: rgb(250, 162, 177);
+  border-radius: 50%;
+  position: relative;
+}
+.cheeks-1.left {
+  top: 35%;
+  left: 5%;
+}
+.cheeks-1.right {
+  top: 35%;
+  left: 75%;
+}
