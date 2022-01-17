@@ -76,7 +76,8 @@ body {
   );
   margin: auto;
   position: relative;
-  top: 5%;
+  top: 10%;
+  z-index: 2;
 }
 .body-1 {
   width: 200px;
@@ -85,7 +86,7 @@ body {
     60deg,
     black 0%,
     rgb(77, 76, 76) 60%,
-    rgb(155, 154, 154) 90%
+    rgb(155, 154, 154) 100%
   );
   margin: auto;
   border-radius: 70% 70% 90% 90%;
@@ -147,4 +148,14 @@ body {
   position: relative;
   margin: auto;
   top: 55%;
+}
+.body-1::before {
+  content: "";
+  width: 35%;
+  height: 20%;
+  background-color: snow;
+  position: absolute;
+  left: 33%;
+  z-index: 1;
+  border-radius: 40% 40% 100% 100%;
 }
