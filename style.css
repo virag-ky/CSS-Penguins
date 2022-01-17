@@ -339,3 +339,27 @@ body {
   left: 62%;
   top: -12%;
 }
+.arms-2 {
+  background: linear-gradient(
+    60deg,
+    black 0%,
+    rgb(77, 76, 76) 60%,
+    rgb(155, 154, 154) 100%
+  );
+  width: 40%;
+  height: 10%;
+  position: absolute;
+  border-radius: 100%;
+  z-index: -1;
+}
+.arms-2.left {
+  background: rgb(43, 42, 42);
+  transform: rotate(-40deg);
+  bottom: 38%;
+  left: -15%;
+}
+.arms-2.right {
+  left: 75%;
+  bottom: 35%;
+  transform: rotate(40deg);
+}
