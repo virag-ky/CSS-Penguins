@@ -159,3 +159,23 @@ body {
   z-index: 1;
   border-radius: 40% 40% 100% 100%;
 }
+.feet-1 {
+  background-color: orange;
+  width: 50px;
+  height: 20px;
+  border-radius: 50%;
+}
+.feet-1.left {
+  transform: rotate(-20deg);
+  position: relative;
+  left: 20%;
+  top: -5%;
+  z-index: -1;
+}
+.feet-1.right {
+  transform: rotate(20deg);
+  position: relative;
+  top: -10%;
+  left: 65%;
+  z-index: -1;
+}
