@@ -363,3 +363,11 @@ body {
   bottom: 35%;
   transform: rotate(40deg);
 }
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  .penguin-1 {
+    top: 50%;
+  }
+  .penguin-2 {
+    top: 50%;
+  }
+}
