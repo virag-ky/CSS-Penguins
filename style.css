@@ -54,3 +54,23 @@ body {
   top: 45%;
   left: 15%;
 }
+.penguin-1 {
+  width: 300px;
+  height: 400px;
+  margin: auto;
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  z-index: 3;
+}
+.head-1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 40% 40% 60% 60%;
+  background: linear-gradient(
+    60deg,
+    black 0%,
+    rgb(77, 76, 76) 60%,
+    rgb(155, 154, 154) 100%
+  );
+}
