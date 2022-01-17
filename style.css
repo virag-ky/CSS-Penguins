@@ -12,3 +12,12 @@ body {
   position: absolute;
   bottom: 0;
 }
+.sun {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: yellow;
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
