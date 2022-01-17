@@ -281,3 +281,18 @@ body {
   border-radius: 50% 50% 50% 20%;
   left: 40%;
 }
+.eyes-2 {
+  background-color: black;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  position: relative;
+}
+.eyes-2.left {
+  top: 25%;
+  left: 25%;
+}
+.eyes-2.right {
+  top: 25%;
+  left: 40%;
+}
