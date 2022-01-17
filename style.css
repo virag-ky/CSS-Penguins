@@ -296,3 +296,18 @@ body {
   top: 25%;
   left: 40%;
 }
+.cheeks-2 {
+  background-color: rgb(248, 161, 176);
+  width: 12px;
+  height: 6px;
+  border-radius: 50%;
+  position: relative;
+}
+.cheeks-2.left {
+  top: 35%;
+  left: 10%;
+}
+.cheeks-2.right {
+  top: 35%;
+  left: 65%;
+}
