@@ -232,14 +232,14 @@ body {
 .head-2 {
   margin: auto;
   width: 100px;
-  height: 100px;
+  height: 80px;
   background: linear-gradient(
     60deg,
     black 0%,
     rgb(77, 76, 76) 60%,
     rgb(155, 154, 154) 100%
   );
-  border-radius: 80% 80% 100% 100%;
+  border-radius: 100% 100% 120% 120%;
   position: relative;
   top: 10%;
   z-index: 2;
@@ -265,4 +265,19 @@ body {
   border-radius: 40% 40% 100% 100%;
   z-index: 1;
   left: 30%;
+}
+.face-2 {
+  background-color: white;
+  width: 50px;
+  height: 60px;
+  position: absolute;
+  top: 10%;
+}
+.face-2.left {
+  border-radius: 50% 50% 20% 50%;
+  left: 10%;
+}
+.face-2.right {
+  border-radius: 50% 50% 50% 20%;
+  left: 40%;
 }
