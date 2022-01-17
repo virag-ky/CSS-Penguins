@@ -180,7 +180,7 @@ body {
   z-index: -1;
 }
 .arms-1 {
-  width: 60%;
+  width: 50%;
   height: 12%;
   background: linear-gradient(
     60deg,
@@ -192,16 +192,31 @@ body {
 }
 .arms-1.left {
   z-index: -1;
-  left: -8%;
-  bttom: 30%;
-  transform: rotate(-140deg);
-  border-radius: 60% 80% 100% 100%;
+  left: 2%;
+  bottom: 40%;
+  transform: rotate(20deg) scaleX(-1);
+  border-radius: 100% 100% 100% 100%;
   background: rgb(43, 42, 42);
+  animation: 2s linear infinite wave;
 }
 .arms-1.right {
   left: 50%;
   bottom: 35%;
-  border-radius: 60% 80% 100% 100%;
+  border-radius: 100% 100% 100% 100%;
   transform: rotate(45deg);
   z-index: -1;
+}
+@keyframes wave {
+  10% {
+    transform: rotate(45deg) scaleX(-1);
+  }
+  20% {
+    transform: rotate(60deg) scaleX(-1);
+  }
+  30% {
+    transform: rotate(45deg) scaleX(-1);
+  }
+  40% {
+    transform: rotate(60deg) scaleX(-1);
+  }
 }
