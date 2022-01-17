@@ -161,8 +161,8 @@ body {
 }
 .feet-1 {
   background-color: orange;
-  width: 50px;
-  height: 20px;
+  width: 60px;
+  height: 30px;
   border-radius: 50%;
 }
 .feet-1.left {
@@ -175,7 +175,7 @@ body {
 .feet-1.right {
   transform: rotate(20deg);
   position: relative;
-  top: -7%;
+  top: -10%;
   left: 55%;
   z-index: -1;
 }
@@ -320,4 +320,22 @@ body {
   position: relative;
   margin: auto;
   top: 55%;
+}
+.feet-2 {
+  background-color: orange;
+  border-radius: 50%;
+  width: 30px;
+  height: 15px;
+  position: relative;
+  z-index: -1;
+}
+.feet-2.left {
+  transform: rotate(-20deg);
+  left: 20%;
+  top: -5%;
+}
+.feet-2.right {
+  transform: rotate(25deg);
+  left: 62%;
+  top: -12%;
 }
