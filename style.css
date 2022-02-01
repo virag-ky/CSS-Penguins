@@ -2,10 +2,10 @@ body {
   background-color: aliceblue;
   padding: 0;
   margin: 0;
-  width: 100%;
-  height: 100vh;
 }
 .ground {
+  position: absolute;
+  bottom: 0;
   width: 100%;
   height: 50%;
   background: linear-gradient(
@@ -13,8 +13,6 @@ body {
     rgb(0, 150, 255) 0%,
     rgb(220, 240, 255) 80%
   );
-  position: absolute;
-  bottom: 0;
   z-index: 2;
 }
 .sun {
@@ -27,32 +25,16 @@ body {
   right: 50px;
 }
 .mountain-1 {
-  width: 400px;
-  height: 280px;
-  background: linear-gradient(
-    70deg,
-    rgb(0, 100, 160) 0%,
-    rgb(220, 220, 220) 70%
-  );
-  transform: skew(-20deg, 44deg);
+  width: 0;
+  height: 0;
+  border-left: 300px solid transparent;
+  border-right: 300px solid transparent;
+  border-bottom: 400px solid rgb(141, 181, 194);
   position: absolute;
-  top: 40%;
-  left: -5%;
-  z-index: 1;
+  top: 80px;
+  left: -100px;
 }
 .mountain-2 {
-  width: 280px;
-  height: 180px;
-  background: linear-gradient(
-    40deg,
-    rgb(0, 100, 160) 0%,
-    rgb(220, 220, 220) 70%
-  );
-  transform: skew(-40deg, 45deg);
-  z-index: -1;
-  position: absolute;
-  top: 55%;
-  left: 15%;
 }
 /*First penguin*/
 .penguin-1 {
@@ -364,20 +346,6 @@ body {
   transform: rotate(40deg);
 }
 @media only screen and (min-width: 600px) and (max-width: 1200px) {
-  .ground {
-    height: 55%;
-    bottom: -20%;
-  }
-  .mountain-1 {
-    height: 200px;
-    width: 300px;
-    top: 55%;
-    left: -12%;
-  }
-  .mountain-2 {
-    top: 60%;
-    width: 200px;
-  }
   .penguin-1 {
     top: 50%;
   }
@@ -386,10 +354,6 @@ body {
   }
 }
 @media only screen and (max-width: 600px) {
-  .ground {
-    height: 50%;
-    width: 100%;
-  }
   .mountain-1 {
     width: 250px;
     height: 150px;
