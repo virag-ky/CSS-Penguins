@@ -357,11 +357,18 @@ body {
   transform: rotate(40deg);
 }
 @media only screen and (min-width: 600px) and (max-width: 1200px) {
+  .mountain-1 {
+    top: 25%;
+  }
+  .mountain-2 {
+    top: 38%;
+    left: 35%;
+  }
   .penguin-1 {
     top: 50%;
   }
   .penguin-2 {
-    top: 40%;
+    top: 45%;
     right: 30%;
   }
 }
